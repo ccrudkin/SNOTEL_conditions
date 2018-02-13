@@ -7,7 +7,7 @@ import csv
 
 local_file = input('File name (no ext.): ')
 
-with open('C:/Users/ccrud/PycharmProjects/snotel/Data/CSVs/{}.csv'.format(local_file)) as fo:
+with open('C:/LOCAL_PATH_HERE/{}.csv'.format(local_file)) as fo:  # Customize with local file path.
     data = csv.reader(fo)
     data = list(data)
 
@@ -40,7 +40,7 @@ def get_deviation(month_num):
     t_avg = sum(temps) / len(temps)
     print(t_avg)
     dev_file = local_file + '_dev'
-    fo = open('C:/Users/ccrud/PycharmProjects/snotel/Data/CSVs/{}.csv'.format(dev_file), 'w', newline='')
+    fo = open('C:/LOCAL_PATH_HERE/{}.csv'.format(dev_file), 'w', newline='')  # Update with local file path.
     o_w = csv.writer(fo)
     o_w.writerow(['Month', 'Deviation, 20 year temp. avg.'])
     for y in range(0, 20):
@@ -75,7 +75,7 @@ def get_snow_d_avg(month_num):
 def get_snow_deviation(month_num):
     sd_avg = get_snow_d_avg(month_num)
     fn = local_file + '_sd_dev'
-    fo = open('C:/Users/ccrud/PycharmProjects/snotel/Data/CSVs/{}.csv'.format(fn), 'w', newline='')
+    fo = open('C:/LOCAL_PATH_HERE/{}.csv'.format(fn), 'w', newline='')  #Update with local file path.
     o_w = csv.writer(fo)
     o_w.writerow(['Date', 'Deviation, 20 year snow depth avg.'])
     for y in range(0, 20):
