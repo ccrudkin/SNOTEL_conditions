@@ -1,14 +1,8 @@
 #! python3
 
-# TODO: add out-of-state capability (e.g., Cooke City) and prettier names for humans. DONE!
-# TODO: Clean up score_location() function with variables instead of operations. DONE!
-# TODO: dynamically find first cell of data instead of counting by hand. DONE!
-# TODO: for ^ : data_start = [data.index(row) for row in data if row[0] == 'Date'][0] + 1 DONE!
-
 import requests, csv
-from datetime import date
 
-stations = {
+stations = {  # Any custom list of stations can be substituted here. Values are [station code, state code, human-readable station name].
     'casper_mtn': ['389', 'WY', 'Casper Mountain'],
     'togwotee_pass': ['822', 'WY', 'Togwotee Pass'],
     'grand_targhee': ['1082', 'WY', 'Grand Targhee'],
@@ -21,7 +15,7 @@ stations = {
     'fisher_creek': ['480', 'MT', 'Fisher Creek (Cooke City)']
     }
 
-f = {
+f = {  # Field numbers for value types within data rows of report.
     'date': 0,
     's_depth': 1,
     'temp_max': 2,
@@ -46,11 +40,11 @@ def get_data(s):
     r = requests.get(base_url + '{}:{}:{}|id=%22%22|name/{},{}/'.format(s_code, state, code, st, en) + values)
     data = r.text
 
-    fo = open('C:/Users/ccrud/PycharmProjects/snotel/Data/CSVs/30_day_temps/{}_{}.csv'.format(s, '30_day'), 'w')
+    fo = open('C:/LOCAL_PATH_HERE/{}_{}.csv'.format(s, '30_day'), 'w')  # ADD LOCAL FILE PATH
     fo.write(data)
     fo.close()
 
-    with open('C:/Users/ccrud/PycharmProjects/snotel/Data/CSVs/30_day_temps/{}_{}.csv'.format(s, '30_day'), 'r') as fo:
+    with open('C:/LOCAL_PATH_HERE/{}_{}.csv'.format(s, '30_day'), 'r') as fo:  # ADD LOCAL FILE PATH
         cdata = csv.reader(fo)
         cdata = list(cdata)
 
