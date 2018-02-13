@@ -25,7 +25,7 @@ def get_month():
 
 
 def get_end_month():
-    end_month = str(get_month())  # End in Dec. of the last complete calendar year.
+    end_month = str(get_month())  # End in Dec. of the last complete calendar year (becomes negative in URL request).
     return end_month
 
 
@@ -45,7 +45,7 @@ en = get_end_month()
 r = requests.get(base_url + '{}:{}:{}|id=%22%22|name/-{},-{}/'.format(station, state, code, st, en) + values)
 data = r.text
 
-fo = open('C:/Users/ccrud/PycharmProjects/snotel/Data/CSVs/{}_{}year.csv'.format(get_station, r_length), 'w')
+fo = open('C:/LOCAL_PATH_HERE/{}_{}year.csv'.format(get_station, r_length), 'w')  # Customize with local file path.
 fo.write(data)
 fo.close()
 
