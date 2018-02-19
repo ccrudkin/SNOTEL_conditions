@@ -38,11 +38,11 @@ def get_data(s):
     r = requests.get(base_url + '{}:{}:{}|id=%22%22|name/{},{}/'.format(s_code, state, code, st, en) + values)
     data = r.text
 
-    fo = open('C:/LOCAL_PATH_HERE/{}_{}.csv'.format(s, '30_day'), 'w')
+    fo = open('C:/LOCAL_PATH_HERE/{}_{}.csv'.format(s, '30_day'), 'w')  # Add local file path.
     fo.write(data)
     fo.close()
 
-    with open('C:/LOCAL_PATH_HERE/{}_{}.csv'.format(s, '30_day'), 'r') as fo:
+    with open('C:/LOCAL_PATH_HERE/{}_{}.csv'.format(s, '30_day'), 'r') as fo:  # Add local file path.
         cdata = csv.reader(fo)
         cdata = list(cdata)
 
