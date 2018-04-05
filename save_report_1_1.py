@@ -9,14 +9,16 @@ import os
 stations = {
     'casper_mtn': ['389', 'WY', 'Casper Mountain'],
     'togwotee_pass': ['822', 'WY', 'Togwotee Pass'],
-    'med_bow': ['1196', 'WY', 'Medicine Bow'],
     'powder_river_pass': ['703', 'WY', 'Powder River Pass - Big Horns'],
     'old_battle': ['673', 'WY', 'Old Battle - Sierra Madres'],
     'wolverine': ['875', 'WY', 'Wolverine - Absarokas'],
     'townsend_creek': ['826', 'WY', 'Townsend Creek - SE Wind Rivers'],
     'blind_bull': ['353', 'WY', 'Blind Bull Summit - Wyoming Range'],
     'fisher_creek': ['480', 'MT', 'Fisher Creek - Cooke City'],
-    'willow_park': ['870', 'CO', 'Willow Park - Estes ']
+    'brackett_creek': ['365', 'MT', 'Brackett Creek - Bozeman'],
+    'willow_park': ['870', 'CO', 'Willow Park - Estes '],
+    'fremont_pass': ['485', 'CO', 'Fremont Pass - Leadville'],
+    'dry_lake': ['457', 'CO', 'Dry Lake - Steamboat']
     }
 
 r_length = int(input('Report depth in years: '))

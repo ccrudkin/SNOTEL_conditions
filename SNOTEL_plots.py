@@ -11,7 +11,7 @@ for filename in os.listdir(cwd + '/Data/long_term_reports/'):
             l = []
             for set in data[1:]:
                 l.append(float(set[1]))  # NUMBERS, not strings. Took long enough.
-            print(l)
+            # print(l)
             plt.plot(l)
 
 plt.title('March temp. deviation from average, 1998-2017')

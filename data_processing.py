@@ -24,7 +24,7 @@ def get_avg_temps(month_num):
 def get_deviation(month_num):
     temps = []
     for y in range(0, 20):
-        month = y * 12 + 58 + month_num
+        month = y * 12 + 58 + month_num  # Data starts on line 58 with Jan., add years/months
         if month <= len(data):
             mt = data[month][f['temp_avg']]
             if mt != '':
@@ -33,7 +33,8 @@ def get_deviation(month_num):
     t_avg = sum(temps) / len(temps)
     print(t_avg)
     dev_file = 'dev_' + local_file
-    fo = open('C:/Users/ccrud/PycharmProjects/snotel/Data/long_term_reports/{}'.format(dev_file), 'w', newline='')
+    fo = open(cwd + '/Data/long_term_reports/{}'
+              .format(dev_file), 'w', newline='')
     o_w = csv.writer(fo)
     o_w.writerow(['Month', 'Deviation, 20 year temp. avg.'])
     for y in range(0, 20):
@@ -67,8 +68,8 @@ def get_snow_d_avg(month_num):
 
 def get_snow_deviation(month_num):
     sd_avg = get_snow_d_avg(month_num)
-    fn = 'sd_dev_''' + local_file
-    fo = open('C:/Users/ccrud/PycharmProjects/snotel/Data/long_term_reports/{}'.format(fn), 'w', newline='')
+    fn = 'sd_dev_' + local_file
+    fo = open(cwd + '/Data/long_term_reports/{}'.format(fn), 'w', newline='')
     o_w = csv.writer(fo)
     o_w.writerow(['Date', 'Deviation, 20 year snow depth avg.'])
     for y in range(0, 20):
