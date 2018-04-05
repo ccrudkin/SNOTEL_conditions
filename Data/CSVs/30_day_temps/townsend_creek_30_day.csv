@@ -1,0 +1,86 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resource Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# Help and Tutorials: http://www.wcc.nrcs.usda.gov/report_generator/report_generator_landing.htm
+# 
+# Support Contact: nrcsprod@midatl.service-now.com
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily
+# Date Range: 2018-03-08 to 2018-04-05
+# Report Instantaneous Data As: Start of Day
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 826: Townsend Creek, WY
+# 
+# Data items provided in this file:
+#
+# Element Name             Value Type  Function Type  Function Duration             Base Data  Measurement Units   Sensor Depth  Element Code  Description                                              
+# Snow Depth               Value       None           Instantaneous - Start of Day  N/A        Inches              N/A           SNWD          Total snow depth                                         
+# Air Temperature Maximum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMAX          Maximum air temperature - sub-hourly sampling frequency  
+# Air Temperature Minimum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMIN          Minimum air temperature - sub-hourly sampling frequency  
+# Air Temperature Average  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TAVG          Average air temperature - sub-hourly sampling frequency  
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  K      Estimate            Estimate
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Townsend Creek (826) 
+# Wyoming  SNOTEL Site - 8700 ft
+# Reporting Frequency: Daily; Date Range: 2018-03-08 to 2018-04-05
+#
+# As of: Apr 5, 2018 7:08:00 AM GMT-08:00
+#
+Date,Snow Depth (in) Start of Day Values,Air Temperature Maximum (degF),Air Temperature Minimum (degF),Air Temperature Average (degF)
+2018-03-08,25,46,16,33
+2018-03-09,24,41,27,32
+2018-03-10,24,35,7,24
+2018-03-11,24,40,2,24
+2018-03-12,24,42,16,29
+2018-03-13,24,46,11,28
+2018-03-14,24,52,21,38
+2018-03-15,25,41,22,33
+2018-03-16,25,43,15,26
+2018-03-17,25,35,15,27
+2018-03-18,25,36,11,24
+2018-03-19,26,35,10,23
+2018-03-20,26,38,10,26
+2018-03-21,25,46,19,34
+2018-03-22,24,54,31,40
+2018-03-23,23,47,23,35
+2018-03-24,23,43,25,35
+2018-03-25,23,39,24,31
+2018-03-26,25,34,4,21
+2018-03-27,29,44,0,26
+2018-03-28,27,36,10,26
+2018-03-29,29,37,6,24
+2018-03-30,28,47,22,35
+2018-03-31,27,46,18,33
+2018-04-01,26,46,25,36
+2018-04-02,26,41,7,29
+2018-04-03,27,34,-4,20
+2018-04-04,27,44,25,35
+2018-04-05,26,,,

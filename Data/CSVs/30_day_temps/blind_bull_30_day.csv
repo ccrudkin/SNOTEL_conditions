@@ -1,0 +1,86 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resource Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# Help and Tutorials: http://www.wcc.nrcs.usda.gov/report_generator/report_generator_landing.htm
+# 
+# Support Contact: nrcsprod@midatl.service-now.com
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily
+# Date Range: 2018-03-08 to 2018-04-05
+# Report Instantaneous Data As: Start of Day
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 353: Blind Bull Sum, WY
+# 
+# Data items provided in this file:
+#
+# Element Name             Value Type  Function Type  Function Duration             Base Data  Measurement Units   Sensor Depth  Element Code  Description                                              
+# Snow Depth               Value       None           Instantaneous - Start of Day  N/A        Inches              N/A           SNWD          Total snow depth                                         
+# Air Temperature Maximum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMAX          Maximum air temperature - sub-hourly sampling frequency  
+# Air Temperature Minimum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMIN          Minimum air temperature - sub-hourly sampling frequency  
+# Air Temperature Average  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TAVG          Average air temperature - sub-hourly sampling frequency  
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  K      Estimate            Estimate
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Blind Bull Sum (353) 
+# Wyoming  SNOTEL Site - 8650 ft
+# Reporting Frequency: Daily; Date Range: 2018-03-08 to 2018-04-05
+#
+# As of: Apr 5, 2018 7:08:01 AM GMT-08:00
+#
+Date,Snow Depth (in) Start of Day Values,Air Temperature Maximum (degF),Air Temperature Minimum (degF),Air Temperature Average (degF)
+2018-03-08,86,35,16,25
+2018-03-09,86,30,24,27
+2018-03-10,89,34,14,22
+2018-03-11,88,35,13,24
+2018-03-12,86,38,21,26
+2018-03-13,84,44,20,30
+2018-03-14,84,42,27,34
+2018-03-15,87,31,18,25
+2018-03-16,86,30,17,22
+2018-03-17,85,30,12,22
+2018-03-18,86,23,9,17
+2018-03-19,84,26,16,20
+2018-03-20,84,29,18,22
+2018-03-21,84,35,20,28
+2018-03-22,85,36,29,33
+2018-03-23,87,37,20,28
+2018-03-24,86,33,16,23
+2018-03-25,89,32,17,22
+2018-03-26,90,27,13,19
+2018-03-27,89,29,10,22
+2018-03-28,86,29,24,26
+2018-03-29,87,30,17,24
+2018-03-30,87,36,24,31
+2018-03-31,86,34,28,31
+2018-04-01,90,35,27,31
+2018-04-02,94,32,6,22
+2018-04-03,100,26,-1,14
+2018-04-04,97,32,20,28
+2018-04-05,97,,,

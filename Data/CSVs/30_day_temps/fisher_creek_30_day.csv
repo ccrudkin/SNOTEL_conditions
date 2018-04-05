@@ -1,0 +1,86 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resource Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# Help and Tutorials: http://www.wcc.nrcs.usda.gov/report_generator/report_generator_landing.htm
+# 
+# Support Contact: nrcsprod@midatl.service-now.com
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily
+# Date Range: 2018-03-08 to 2018-04-05
+# Report Instantaneous Data As: Start of Day
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 480: Fisher Creek, MT
+# 
+# Data items provided in this file:
+#
+# Element Name             Value Type  Function Type  Function Duration             Base Data  Measurement Units   Sensor Depth  Element Code  Description                                              
+# Snow Depth               Value       None           Instantaneous - Start of Day  N/A        Inches              N/A           SNWD          Total snow depth                                         
+# Air Temperature Maximum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMAX          Maximum air temperature - sub-hourly sampling frequency  
+# Air Temperature Minimum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMIN          Minimum air temperature - sub-hourly sampling frequency  
+# Air Temperature Average  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TAVG          Average air temperature - sub-hourly sampling frequency  
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  K      Estimate            Estimate
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Fisher Creek (480) 
+# Montana  SNOTEL Site - 9100 ft
+# Reporting Frequency: Daily; Date Range: 2018-03-08 to 2018-04-05
+#
+# As of: Apr 5, 2018 7:08:03 AM GMT-08:00
+#
+Date,Snow Depth (in) Start of Day Values,Air Temperature Maximum (degF),Air Temperature Minimum (degF),Air Temperature Average (degF)
+2018-03-08,133,33,12,23
+2018-03-09,137,28,13,24
+2018-03-10,141,35,9,19
+2018-03-11,138,46,8,24
+2018-03-12,135,44,15,25
+2018-03-13,134,47,15,26
+2018-03-14,132,45,18,32
+2018-03-15,131,36,21,27
+2018-03-16,132,34,9,20
+2018-03-17,131,35,9,21
+2018-03-18,131,31,12,20
+2018-03-19,130,32,17,21
+2018-03-20,131,30,18,22
+2018-03-21,130,35,19,28
+2018-03-22,131,39,29,34
+2018-03-23,134,37,26,31
+2018-03-24,134,38,19,26
+2018-03-25,134,35,13,21
+2018-03-26,135,32,10,19
+2018-03-27,133,33,10,23
+2018-03-28,135,34,19,25
+2018-03-29,135,34,16,24
+2018-03-30,133,34,23,29
+2018-03-31,134,35,13,27
+2018-04-01,133,35,12,26
+2018-04-02,140,32,2,18
+2018-04-03,145,27,6,16
+2018-04-04,143,32,19,26
+2018-04-05,144,,,

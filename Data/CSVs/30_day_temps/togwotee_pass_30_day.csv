@@ -1,0 +1,86 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resource Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# Help and Tutorials: http://www.wcc.nrcs.usda.gov/report_generator/report_generator_landing.htm
+# 
+# Support Contact: nrcsprod@midatl.service-now.com
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily
+# Date Range: 2018-03-08 to 2018-04-05
+# Report Instantaneous Data As: Start of Day
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 822: Togwotee Pass, WY
+# 
+# Data items provided in this file:
+#
+# Element Name             Value Type  Function Type  Function Duration             Base Data  Measurement Units   Sensor Depth  Element Code  Description                                              
+# Snow Depth               Value       None           Instantaneous - Start of Day  N/A        Inches              N/A           SNWD          Total snow depth                                         
+# Air Temperature Maximum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMAX          Maximum air temperature - sub-hourly sampling frequency  
+# Air Temperature Minimum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMIN          Minimum air temperature - sub-hourly sampling frequency  
+# Air Temperature Average  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TAVG          Average air temperature - sub-hourly sampling frequency  
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  K      Estimate            Estimate
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Togwotee Pass (822) 
+# Wyoming  SNOTEL Site - 9580 ft
+# Reporting Frequency: Daily; Date Range: 2018-03-08 to 2018-04-05
+#
+# As of: Apr 5, 2018 7:07:50 AM GMT-08:00
+#
+Date,Snow Depth (in) Start of Day Values,Air Temperature Maximum (degF),Air Temperature Minimum (degF),Air Temperature Average (degF)
+2018-03-08,91,34,13,23
+2018-03-09,91,30,20,24
+2018-03-10,95,33,8,19
+2018-03-11,94,42,7,24
+2018-03-12,92,42,17,28
+2018-03-13,89,47,17,29
+2018-03-14,88,45,26,34
+2018-03-15,90,35,16,25
+2018-03-16,89,34,13,21
+2018-03-17,89,31,9,20
+2018-03-18,90,30,7,15
+2018-03-19,90,29,13,18
+2018-03-20,92,27,15,20
+2018-03-21,93,35,14,26
+2018-03-22,91,37,28,33
+2018-03-23,96,39,20,28
+2018-03-24,95,33,12,22
+2018-03-25,98,33,13,20
+2018-03-26,98,27,12,17
+2018-03-27,98,31,11,21
+2018-03-28,96,30,15,23
+2018-03-29,98,33,10,20
+2018-03-30,96,36,20,28
+2018-03-31,95,41,18,28
+2018-04-01,95,36,20,27
+2018-04-02,99,32,5,21
+2018-04-03,103,29,2,14
+2018-04-04,100,33,17,26
+2018-04-05,101,,,

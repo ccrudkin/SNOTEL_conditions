@@ -45,7 +45,7 @@ en = get_end_month()
 r = requests.get(base_url + '{}:{}:{}|id=%22%22|name/-{},-{}/'.format(station, state, code, st, en) + values)
 data = r.text
 
-fo = open('C:/LOCAL_PATH_HERE/{}_{}year.csv'.format(get_station, r_length), 'w')  # Customize with local file path.
+fo = open('C:/Users/ccrud/PycharmProjects/snotel/Data/CSVs/{}_{}year.csv'.format(get_station, r_length), 'w')
 fo.write(data)
 fo.close()
 

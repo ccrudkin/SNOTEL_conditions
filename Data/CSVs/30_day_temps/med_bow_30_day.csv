@@ -1,0 +1,86 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resource Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# Help and Tutorials: http://www.wcc.nrcs.usda.gov/report_generator/report_generator_landing.htm
+# 
+# Support Contact: nrcsprod@midatl.service-now.com
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily
+# Date Range: 2018-03-08 to 2018-04-05
+# Report Instantaneous Data As: Start of Day
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 1196: Med Bow, WY
+# 
+# Data items provided in this file:
+#
+# Element Name             Value Type  Function Type  Function Duration             Base Data  Measurement Units   Sensor Depth  Element Code  Description                                              
+# Snow Depth               Value       None           Instantaneous - Start of Day  N/A        Inches              N/A           SNWD          Total snow depth                                         
+# Air Temperature Maximum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMAX          Maximum air temperature - sub-hourly sampling frequency  
+# Air Temperature Minimum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMIN          Minimum air temperature - sub-hourly sampling frequency  
+# Air Temperature Average  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TAVG          Average air temperature - sub-hourly sampling frequency  
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  K      Estimate            Estimate
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Med Bow (1196) 
+# Wyoming  SNOTEL Site - 10500 ft
+# Reporting Frequency: Daily; Date Range: 2018-03-08 to 2018-04-05
+#
+# As of: Apr 5, 2018 7:07:53 AM GMT-08:00
+#
+Date,Snow Depth (in) Start of Day Values,Air Temperature Maximum (degF),Air Temperature Minimum (degF),Air Temperature Average (degF)
+2018-03-08,95,,11,24
+2018-03-09,93,,3,26
+2018-03-10,92,,3,18
+2018-03-11,93,,0,23
+2018-03-12,91,,17,24
+2018-03-13,91,,16,27
+2018-03-14,91,,20,33
+2018-03-15,91,,22,28
+2018-03-16,92,,11,19
+2018-03-17,98,,13,25
+2018-03-18,98,,15,22
+2018-03-19,104,,12,17
+2018-03-20,105,,-5,18
+2018-03-21,106,,10,26
+2018-03-22,107,,15,35
+2018-03-23,106,,17,30
+2018-03-24,105,,3,28
+2018-03-25,103,,3,28
+2018-03-26,102,,1,18
+2018-03-27,105,,5,19
+2018-03-28,103,,16,22
+2018-03-29,107,,-2,18
+2018-03-30,111,,4,26
+2018-03-31,107,,26,29
+2018-04-01,113,,9,30
+2018-04-02,111,,6,29
+2018-04-03,113,,-13,12
+2018-04-04,111,,14,24
+2018-04-05,110,,,

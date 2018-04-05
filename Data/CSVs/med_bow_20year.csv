@@ -1,0 +1,123 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resource Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# Help and Tutorials: http://www.wcc.nrcs.usda.gov/report_generator/report_generator_landing.htm
+# 
+# Support Contact: nrcsprod@midatl.service-now.com
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Monthly
+# Date Range: Jan 1998 to Dec 2017
+# Report Instantaneous Data As: Start of Month
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 1196: Med Bow, WY
+# 
+# Data items provided in this file:
+#
+# Element Name                Value Type  Function Type  Function Duration               Base Data  Measurement Units   Sensor Depth  Element Code  Description                                                                                        
+# Snow Water Equivalent       Value       None           Instantaneous - Start of Month  N/A        Inches              N/A           WTEQ          Depth of water that would theoretically result if the entire snowpack were melted instantaneously  
+# Snow Depth                  Value       None           Instantaneous - Start of Month  N/A        Inches              N/A           SNWD          Total snow depth                                                                                   
+# Precipitation Accumulation  Value       None           Instantaneous - Start of Month  N/A        Inches              N/A           PREC          Water year accumulated precipitation                                                               
+# Air Temperature Maximum     Value       None           Month                           N/A        Degrees fahrenheit  N/A           TMAX          Maximum air temperature - sub-hourly sampling frequency                                            
+# Air Temperature Minimum     Value       None           Month                           N/A        Degrees fahrenheit  N/A           TMIN          Minimum air temperature - sub-hourly sampling frequency                                            
+# Air Temperature Average     Value       None           Month                           N/A        Degrees fahrenheit  N/A           TAVG          Average air temperature - sub-hourly sampling frequency                                            
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  K      Estimate            Estimate
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Med Bow (1196) 
+# Wyoming  SNOTEL Site - 10500 ft
+# Reporting Frequency: Monthly; Date Range: Jan 1998 to Dec 2017
+#
+# As of: Feb 12, 2018 7:52:48 PM GMT-08:00
+#
+Date,Snow Water Equivalent (in) Start of Month Values,Snow Depth (in) Start of Month Values,Precipitation Accumulation (in) Start of Month Values,Air Temperature Maximum (degF),Air Temperature Minimum (degF),Air Temperature Average (degF)
+Sep 2012,0.0,0,0.2,82,33,47
+Oct 2012,0.0,0,0.0,96,1,33
+Nov 2012,1.9,12,3.9,131,-15,27
+Dec 2012,4.4,23,7.0,133,-24,15
+Jan 2013,9.5,49,12.2,137,-24,15
+Feb 2013,13.6,68,17.1,79,-8,14
+Mar 2013,20.3,79,22.4,140,-10,22
+Apr 2013,26.1,81,26.9,141,-13,25
+May 2013,30.6,89,33.1,124,-4,38
+Jun 2013,21.3,54,36.3,147,21,51
+Jul 2013,0.0,0,36.6,140,30,55
+Aug 2013,0.0,0,40.2,102,25,54
+Sep 2013,0.0,0,41.3,97,14,47
+Oct 2013,0.0,0,0.0,111,-3,32
+Nov 2013,5.5,24,6.5,115,-10,26
+Dec 2013,8.4,30,9.6,123,-39,14
+Jan 2014,13.7,66,15.8,124,-20,20
+Feb 2014,20.0,74,23.8,139,-11,23
+Mar 2014,24.3,104,28.7,128,-3,24
+Apr 2014,30.8,133,36.3,52,-2,29
+May 2014,33.1,117,43.8,62,11,39
+Jun 2014,27.3,76,49.5,64,23,46
+Jul 2014,1.9,5,51.0,73,34,54
+Aug 2014,0.0,0,53.0,68,34,50
+Sep 2014,0.0,0,56.5,67,22,47
+Oct 2014,0.7,1,0.0,56,15,37
+Nov 2014,0.8,2,2.2,49,-14,21
+Dec 2014,8.2,34,9.4,45,-11,19
+Jan 2015,15.1,52,14.7,47,-4,22
+Feb 2015,18.7,59,17.8,47,-7,20
+Mar 2015,24.8,72,22.4,55,-8,29
+Apr 2015,27.9,70,26.0,57,10,31
+May 2015,33.0,73,30.6,59,16,37
+Jun 2015,30.5,59,36.4,71,33,52
+Jul 2015,0.0,0,38.3,69,35,52
+Aug 2015,0.0,0,39.9,71,29,52
+Sep 2015,0.0,0,42.1,65,28,48
+Oct 2015,0.0,0,0.0,61,20,39
+Nov 2015,2.0,12,2.8,48,-3,23
+Dec 2015,7.3,31,7.8,38,-9,15
+Jan 2016,13.2,50,13.2,39,-3,17
+Feb 2016,21.0,82,19.6,43,-8,20
+Mar 2016,24.7,74,22.0,48,3,23
+Apr 2016,34.2,110,30.1,57,9,30
+May 2016,38.9,108,37.7,59,15,37
+Jun 2016,37.1,78,43.5,71,32,52
+Jul 2016,0.0,0,43.9,70,35,55
+Aug 2016,0.0,0,44.7,70,25,52
+Sep 2016,0.0,0,45.4,66,25,45
+Oct 2016,0.0,0,0.0,57,12,37
+Nov 2016,2.3,7,3.9,,-3,29
+Dec 2016,8.0,44,8.9,,-20,14
+Jan 2017,16.4,59,16.6,,-17,16
+Feb 2017,26.4,79,25.3,45,-7,22
+Mar 2017,33.7,99,30.2,,3,29
+Apr 2017,36.9,90,33.8,,-10,30
+May 2017,39.6,99,40.2,,9,38
+Jun 2017,34.4,68,44.2,,22,49
+Jul 2017,0.0,0,45.5,,35,56
+Aug 2017,0.0,0,47.9,,28,51
+Sep 2017,0.0,0,49.7,,11,44
+Oct 2017,1.0,2,0.0,,-2,32
+Nov 2017,3.2,11,2.7,,-8,28
+Dec 2017,9.2,32,8.2,,-16,19

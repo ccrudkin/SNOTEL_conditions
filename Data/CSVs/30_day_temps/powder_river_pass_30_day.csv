@@ -1,0 +1,86 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resource Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# Help and Tutorials: http://www.wcc.nrcs.usda.gov/report_generator/report_generator_landing.htm
+# 
+# Support Contact: nrcsprod@midatl.service-now.com
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily
+# Date Range: 2018-03-08 to 2018-04-05
+# Report Instantaneous Data As: Start of Day
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 703: Powder River Pass, WY
+# 
+# Data items provided in this file:
+#
+# Element Name             Value Type  Function Type  Function Duration             Base Data  Measurement Units   Sensor Depth  Element Code  Description                                              
+# Snow Depth               Value       None           Instantaneous - Start of Day  N/A        Inches              N/A           SNWD          Total snow depth                                         
+# Air Temperature Maximum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMAX          Maximum air temperature - sub-hourly sampling frequency  
+# Air Temperature Minimum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMIN          Minimum air temperature - sub-hourly sampling frequency  
+# Air Temperature Average  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TAVG          Average air temperature - sub-hourly sampling frequency  
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  K      Estimate            Estimate
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Powder River Pass (703) 
+# Wyoming  SNOTEL Site - 9480 ft
+# Reporting Frequency: Daily; Date Range: 2018-03-08 to 2018-04-05
+#
+# As of: Apr 5, 2018 7:07:55 AM GMT-08:00
+#
+Date,Snow Depth (in) Start of Day Values,Air Temperature Maximum (degF),Air Temperature Minimum (degF),Air Temperature Average (degF)
+2018-03-08,52,41,20,28
+2018-03-09,52,38,17,25
+2018-03-10,52,32,8,18
+2018-03-11,52,42,10,26
+2018-03-12,51,43,17,28
+2018-03-13,50,44,16,28
+2018-03-14,50,51,21,35
+2018-03-15,49,41,25,32
+2018-03-16,49,32,14,24
+2018-03-17,51,35,14,24
+2018-03-18,50,31,8,21
+2018-03-19,54,32,7,18
+2018-03-20,54,34,10,19
+2018-03-21,53,41,13,26
+2018-03-22,51,50,23,35
+2018-03-23,51,40,22,31
+2018-03-24,53,39,19,28
+2018-03-25,53,35,17,24
+2018-03-26,56,26,13,20
+2018-03-27,59,44,9,25
+2018-03-28,55,36,15,22
+2018-03-29,57,28,11,18
+2018-03-30,58,39,15,27
+2018-03-31,57,32,17,22
+2018-04-01,57,39,14,26
+2018-04-02,55,30,0,20
+2018-04-03,58,24,-2,10
+2018-04-04,57,37,13,25
+2018-04-05,56,,,

@@ -1,0 +1,86 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resource Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# Help and Tutorials: http://www.wcc.nrcs.usda.gov/report_generator/report_generator_landing.htm
+# 
+# Support Contact: nrcsprod@midatl.service-now.com
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily
+# Date Range: 2018-03-08 to 2018-04-05
+# Report Instantaneous Data As: Start of Day
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 875: Wolverine, WY
+# 
+# Data items provided in this file:
+#
+# Element Name             Value Type  Function Type  Function Duration             Base Data  Measurement Units   Sensor Depth  Element Code  Description                                              
+# Snow Depth               Value       None           Instantaneous - Start of Day  N/A        Inches              N/A           SNWD          Total snow depth                                         
+# Air Temperature Maximum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMAX          Maximum air temperature - sub-hourly sampling frequency  
+# Air Temperature Minimum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMIN          Minimum air temperature - sub-hourly sampling frequency  
+# Air Temperature Average  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TAVG          Average air temperature - sub-hourly sampling frequency  
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  K      Estimate            Estimate
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Wolverine (875) 
+# Wyoming  SNOTEL Site - 7650 ft
+# Reporting Frequency: Daily; Date Range: 2018-03-08 to 2018-04-05
+#
+# As of: Apr 5, 2018 7:07:58 AM GMT-08:00
+#
+Date,Snow Depth (in) Start of Day Values,Air Temperature Maximum (degF),Air Temperature Minimum (degF),Air Temperature Average (degF)
+2018-03-08,54,41,24,30
+2018-03-09,57,37,23,31
+2018-03-10,55,43,11,26
+2018-03-11,55,50,8,30
+2018-03-12,54,54,19,33
+2018-03-13,53,55,16,32
+2018-03-14,52,58,22,40
+2018-03-15,51,43,27,34
+2018-03-16,50,43,15,28
+2018-03-17,49,46,13,27
+2018-03-18,50,40,11,25
+2018-03-19,50,38,22,27
+2018-03-20,49,37,24,28
+2018-03-21,50,42,26,33
+2018-03-22,49,50,32,39
+2018-03-23,48,46,30,36
+2018-03-24,48,46,24,31
+2018-03-25,48,39,18,26
+2018-03-26,47,37,19,26
+2018-03-27,47,41,20,30
+2018-03-28,45,48,22,32
+2018-03-29,47,40,21,30
+2018-03-30,46,42,24,34
+2018-03-31,48,32,13,22
+2018-04-01,48,44,11,30
+2018-04-02,48,35,9,23
+2018-04-03,61,31,10,22
+2018-04-04,57,41,26,33
+2018-04-05,55,,,

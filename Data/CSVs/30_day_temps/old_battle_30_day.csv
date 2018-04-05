@@ -1,0 +1,86 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resource Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# Help and Tutorials: http://www.wcc.nrcs.usda.gov/report_generator/report_generator_landing.htm
+# 
+# Support Contact: nrcsprod@midatl.service-now.com
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily
+# Date Range: 2018-03-08 to 2018-04-05
+# Report Instantaneous Data As: Start of Day
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 673: Old Battle, WY
+# 
+# Data items provided in this file:
+#
+# Element Name             Value Type  Function Type  Function Duration             Base Data  Measurement Units   Sensor Depth  Element Code  Description                                              
+# Snow Depth               Value       None           Instantaneous - Start of Day  N/A        Inches              N/A           SNWD          Total snow depth                                         
+# Air Temperature Maximum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMAX          Maximum air temperature - sub-hourly sampling frequency  
+# Air Temperature Minimum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMIN          Minimum air temperature - sub-hourly sampling frequency  
+# Air Temperature Average  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TAVG          Average air temperature - sub-hourly sampling frequency  
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  K      Estimate            Estimate
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Old Battle (673) 
+# Wyoming  SNOTEL Site - 10000 ft
+# Reporting Frequency: Daily; Date Range: 2018-03-08 to 2018-04-05
+#
+# As of: Apr 5, 2018 7:07:57 AM GMT-08:00
+#
+Date,Snow Depth (in) Start of Day Values,Air Temperature Maximum (degF),Air Temperature Minimum (degF),Air Temperature Average (degF)
+2018-03-08,74,36,18,28
+2018-03-09,73,35,23,29
+2018-03-10,72,30,16,22
+2018-03-11,71,38,16,26
+2018-03-12,71,36,23,28
+2018-03-13,69,42,23,31
+2018-03-14,69,44,31,37
+2018-03-15,69,35,24,29
+2018-03-16,71,26,20,22
+2018-03-17,71,39,21,29
+2018-03-18,71,32,17,23
+2018-03-19,72,24,13,18
+2018-03-20,74,24,15,20
+2018-03-21,77,33,21,28
+2018-03-22,76,43,29,37
+2018-03-23,74,38,23,31
+2018-03-24,74,38,23,31
+2018-03-25,77,35,24,30
+2018-03-26,77,25,12,20
+2018-03-27,77,33,12,22
+2018-03-28,77,28,17,23
+2018-03-29,80,29,17,23
+2018-03-30,81,36,21,30
+2018-03-31,79,42,29,34
+2018-04-01,79,41,28,33
+2018-04-02,79,41,9,31
+2018-04-03,80,27,5,16
+2018-04-04,79,37,22,29
+2018-04-05,78,,,

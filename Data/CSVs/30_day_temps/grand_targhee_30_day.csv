@@ -1,0 +1,86 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resource Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# Help and Tutorials: http://www.wcc.nrcs.usda.gov/report_generator/report_generator_landing.htm
+# 
+# Support Contact: nrcsprod@midatl.service-now.com
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily
+# Date Range: 2018-03-08 to 2018-04-05
+# Report Instantaneous Data As: Start of Day
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 1082: Grand Targhee, WY
+# 
+# Data items provided in this file:
+#
+# Element Name             Value Type  Function Type  Function Duration             Base Data  Measurement Units   Sensor Depth  Element Code  Description                                              
+# Snow Depth               Value       None           Instantaneous - Start of Day  N/A        Inches              N/A           SNWD          Total snow depth                                         
+# Air Temperature Maximum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMAX          Maximum air temperature - sub-hourly sampling frequency  
+# Air Temperature Minimum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMIN          Minimum air temperature - sub-hourly sampling frequency  
+# Air Temperature Average  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TAVG          Average air temperature - sub-hourly sampling frequency  
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  K      Estimate            Estimate
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Grand Targhee (1082) 
+# Wyoming  SNOTEL Site - 9260 ft
+# Reporting Frequency: Daily; Date Range: 2018-03-08 to 2018-04-05
+#
+# As of: Apr 5, 2018 7:07:51 AM GMT-08:00
+#
+Date,Snow Depth (in) Start of Day Values,Air Temperature Maximum (degF),Air Temperature Minimum (degF),Air Temperature Average (degF)
+2018-03-08,124,29,20,25
+2018-03-09,120,25,21,24
+2018-03-10,116,33,10,21
+2018-03-11,116,41,17,27
+2018-03-12,114,40,19,28
+2018-03-13,112,43,25,33
+2018-03-14,111,43,25,35
+2018-03-15,112,27,18,23
+2018-03-16,111,27,18,21
+2018-03-17,111,28,13,20
+2018-03-18,111,25,10,16
+2018-03-19,111,23,17,18
+2018-03-20,115,24,17,20
+2018-03-21,115,33,19,27
+2018-03-22,116,37,29,33
+2018-03-23,120,31,23,27
+2018-03-24,118,28,17,24
+2018-03-25,122,29,17,20
+2018-03-26,122,26,12,18
+2018-03-27,121,30,12,22
+2018-03-28,120,29,18,24
+2018-03-29,119,31,12,22
+2018-03-30,118,34,23,28
+2018-03-31,116,32,24,28
+2018-04-01,119,31,21,27
+2018-04-02,115,29,6,20
+2018-04-03,115,23,-1,14
+2018-04-04,114,29,22,26
+2018-04-05,113,,,

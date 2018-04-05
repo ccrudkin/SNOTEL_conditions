@@ -1,0 +1,86 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resource Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# Help and Tutorials: http://www.wcc.nrcs.usda.gov/report_generator/report_generator_landing.htm
+# 
+# Support Contact: nrcsprod@midatl.service-now.com
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily
+# Date Range: 2018-01-12 to 2018-02-09
+# Report Instantaneous Data As: Start of Day
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 389: Casper Mtn., WY
+# 
+# Data items provided in this file:
+#
+# Element Name             Value Type  Function Type  Function Duration             Base Data  Measurement Units   Sensor Depth  Element Code  Description                                              
+# Snow Depth               Value       None           Instantaneous - Start of Day  N/A        Inches              N/A           SNWD          Total snow depth                                         
+# Air Temperature Maximum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMAX          Maximum air temperature - sub-hourly sampling frequency  
+# Air Temperature Minimum  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TMIN          Minimum air temperature - sub-hourly sampling frequency  
+# Air Temperature Average  Value       None           Day                           N/A        Degrees fahrenheit  N/A           TAVG          Average air temperature - sub-hourly sampling frequency  
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  K      Estimate            Estimate
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Casper Mtn. (389) 
+# Wyoming  SNOTEL Site - 7900 ft
+# Reporting Frequency: Daily; Date Range: 2018-01-12 to 2018-02-09
+#
+# As of: Feb 10, 2018 3:02:33 PM GMT-08:00
+#
+Date,Snow Depth (in) Start of Day Values,Air Temperature Maximum (degF),Air Temperature Minimum (degF),Air Temperature Average (degF)
+2018-01-12,16,31,25,28
+2018-01-13,19,33,23,28
+2018-01-14,18,35,16,28
+2018-01-15,18,16,0,8
+2018-01-16,17,27,7,21
+2018-01-17,17,35,21,28
+2018-01-18,17,40,28,34
+2018-01-19,17,42,31,36
+2018-01-20,17,32,17,22
+2018-01-21,25,17,12,15
+2018-01-22,26,18,11,15
+2018-01-23,25,23,13,17
+2018-01-24,23,31,18,25
+2018-01-25,23,39,22,30
+2018-01-26,22,25,15,20
+2018-01-27,22,25,13,19
+2018-01-28,22,30,19,26
+2018-01-29,21,37,26,32
+2018-01-30,21,40,23,34
+2018-01-31,21,28,10,22
+2018-02-01,21,25,10,19
+2018-02-02,21,38,23,31
+2018-02-03,21,39,25,32
+2018-02-04,21,35,-2,24
+2018-02-05,20,35,18,28
+2018-02-06,21,34,19,25
+2018-02-07,20,38,20,29
+2018-02-08,21,38,26,33
+2018-02-09,21,28,10,19
