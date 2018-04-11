@@ -7,4 +7,4 @@ data_processing.py offers limited data processing for locally saved CSV reports,
 
 SNOTEL_best_conditions_1_1.py implements an algorithm to judge the 'best' snow conditions among the sites listed in the site dictionary. Best is defined as the site with the largest 7-day increase in snow, and in the case of a tie, the site with the fewest number of days above freezing.
 
-SNOTEL_plots.py and SNOTEL_plots_sd.py offer basic charting via matplotlib, and thus are matplotlib-dependent.
+SNOTEL_plots.py and SNOTEL_plots_sd.py offer basic charting via matplotlib, and thus are matplotlib-dependent. Charts are simple line graphs, layered with each data site.
