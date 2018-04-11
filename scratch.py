@@ -1,5 +1,6 @@
-import os
+import stats_and_regression as sts
 
-cwd = os.getcwd()
+x = [1, 2, 2, 3]
+y = [1, 2, 3, 6]
 
-print(cwd)
+sts.print_statitics(x, y)
