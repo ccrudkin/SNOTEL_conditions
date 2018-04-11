@@ -8,3 +8,5 @@ data_processing.py offers limited data processing for locally saved CSV reports,
 SNOTEL_best_conditions_1_1.py implements an algorithm to judge the 'best' snow conditions among the sites listed in the site dictionary. Best is defined as the site with the largest 7-day increase in snow, and in the case of a tie, the site with the fewest number of days above freezing.
 
 SNOTEL_plots.py and SNOTEL_plots_sd.py offer basic charting via matplotlib, and thus are matplotlib-dependent. Charts are simple line graphs, layered with each data site.
+
+stats_and_regression.py is a generic statistics script included to calculate basic statistics including mean, variance, standard deviation, correlation coefficient, and a list of 3 points on a least squares regression line. Instead of using standard library modules, it was hand-coded for the pleasure of refreshing the details of calculating these values. Woohoo.
