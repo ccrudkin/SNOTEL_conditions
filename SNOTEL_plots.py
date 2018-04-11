@@ -15,9 +15,9 @@ for filename in os.listdir(cwd + '/Data/long_term_reports/'):
             for set in data[1:]:
                 l.append(float(set[1]))  # NUMBERS, not strings. Took long enough.
             # print(l)
-            plt.plot(list(range(0, len(l))), l)
+            plt.plot(list(range(1998, 1998 + len(l))), l)
             combined_y.append(l)
-            combined_x.append(list(range(0, len(l))))
+            combined_x.append(list(range(1998, 1998 + len(l))))
 
 all_x = []
 all_y = []
@@ -29,9 +29,14 @@ for lst in combined_y:
     for pt in lst:
         all_y.append(pt)
 
+# print(all_x)
+# print(all_y)
+
 sts.plot_least_squares_reg(sts.print_statitics(all_x, all_y))
 
-plt.title('March temp. deviation from average, 1998-2017')
-plt.xlabel('Years')
-plt.ylabel('Deviation (*F)')
+plt.title('March temp. deviation from average, 1998-2017', size=24)
+plt.xlabel('Years', size=20)
+plt.ylabel('Deviation (*F)', size=20)
+plt.xticks(range(1998, 2018, 2), size=16)
+plt.yticks(size=16)
 plt.show()
