@@ -15,9 +15,9 @@ for filename in os.listdir(cwd + '/Data/long_term_reports/'):
             for set in data[1:]:
                 l.append(float(set[1]))  # NUMBERS, not strings. Took long enough.
             # print(l)
-            plt.plot(list(range(1998, 1998 + len(l))), l)
-            combined_y.append(l)
-            combined_x.append(list(range(1998, 1998 + len(l))))
+            plt.plot(list(range(1998, 1998 + len(l))), l)  # Plot (year, temperature)
+            combined_y.append(l)  # create one long list of y-values to feed into plot.
+            combined_x.append(list(range(1998, 1998 + len(l))))  # repeat so every y has an x.
 
 all_x = []
 all_y = []
